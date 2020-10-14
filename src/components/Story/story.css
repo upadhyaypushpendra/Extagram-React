@@ -1,0 +1,16 @@
+.story{
+    margin: 0 20px;
+    position: relative;
+}
+.story > canvas {
+    position:absolute;
+    z-index:20;
+}
+.story > img {
+    position:absolute;
+    z-index:0;
+    border-radius:50%;
+    top:0;
+    left:0;
+    margin:7px;
+}

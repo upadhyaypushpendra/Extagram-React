@@ -1,0 +1,28 @@
+.stories-container{
+    height: 118px;
+    padding: 16px 0;
+    margin-bottom: 24px;
+    border: 1px solid lightgrey;
+}
+.stories{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.stories > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: dimgrey;
+}
+
+.stories > div > div:last-child {
+    font-size: 12px;
+    line-height: 14px;
+    max-width: 64px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

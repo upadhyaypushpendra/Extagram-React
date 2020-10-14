@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+    color: #282c34;
+}
+.link{
+    font-weight: bolder;
+    font-size: 13px;
+    color: #010145;
+    padding: 0 10px;
+    text-transform: uppercase;
+}

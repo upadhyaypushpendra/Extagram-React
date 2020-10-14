@@ -1,0 +1,24 @@
+.link-container{
+    font-size:14px;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.blue-link{
+    color: #0095f6;
+    color: rgba(var(--d69,0,149,246),1);
+    font-weight: bolder;
+    cursor: pointer;
+}
+.blue-link:visited {
+    color: #00376b;
+    color: rgba(var(--fe0, 0, 55, 107), 1);
+}

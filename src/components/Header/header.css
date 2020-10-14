@@ -1,0 +1,66 @@
+.header-nav{
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding:10px;
+    height:8vh;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    border:1px solid black;
+    border-style:none none solid none;
+    margin: 0;
+    z-index: 100;
+}
+.app-logo-wrapper{
+    margin: 5px;
+}
+.app-logo{
+    width:30px;
+    height:30px;
+}
+.app-title{
+    flex:1 1 auto;
+    padding:0px 10px;
+    margin:10px 10px 10px 0;
+    font-size:30px;
+}
+.fence{
+    padding:0 100px;
+    width: 100%;
+    height: 100%;
+}
+#navigation{
+    flex:2 1 auto;
+    display:flex;
+    flex-direction:row;
+    padding:0px 20px;
+    align-items: center;
+    height: inherit;
+    width: inherit;
+}
+.search-wrapper{
+    flex:1 1 auto;
+}
+.search-wrapper > input{
+    height: 30px;
+    border-radius: 0;
+    margin: 0;
+    padding: 10px;
+}
+.icons-outer{
+    display:flex;
+    flex-direction:row;
+    padding:0px 30px;
+}
+.icon-wrapper{
+    padding:0px 10px;
+}
+.icon {
+    width:20px;
+    height:20px;
+}
+.circle{
+    border-radius: 50%;
+}
+.border{
+    border:1px solid black;
+}

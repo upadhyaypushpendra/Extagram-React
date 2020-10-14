@@ -1,0 +1,61 @@
+#animation-container{
+    margin-left:151px;
+    margin-top:99px;
+    width:240px;
+    height:427px;
+}
+#image-container{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+@keyframes FadeInOut {
+    0% {
+        opacity:1;
+    }
+    15% {
+        opacity:0;
+    }
+    50% {
+        opacity:0;
+    }
+    80% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+#image-container img {
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+}
+#image-container img {
+    animation-name: FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 35s;
+    animation-direction: normal;
+}
+#img1 {
+    animation-delay: 28s;
+}
+#img2 {
+    animation-delay: 21s;
+}
+#img3 {
+    animation-delay: 14s;
+}
+#img4 {
+    animation-delay: 7s;
+}
+#img5 {
+    animation-delay: 0s;
+}
